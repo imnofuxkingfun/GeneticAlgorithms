@@ -1,0 +1,368 @@
+Populatia initiala:
+1: 0100010101011100001111 | x= -0.187184 | f= 1.777778
+2: 1101010010111010010110 | x= 1.492906 | f= 1.264138
+3: 0110011010000101000100 | x= 0.201404 | f= 2.160840
+4: 0011100110101111101010 | x= -0.323990 | f= 1.571040
+5: 0111101101010101010100 | x= 0.445312 | f= 2.247009
+6: 0011011110100100101101 | x= -0.347929 | f= 1.531016
+7: 0101001101101100100010 | x= -0.022375 | f= 1.977124
+8: 0001000111000111010010 | x= -0.791659 | f= 0.581617
+9: 0010110011110111011101 | x= -0.473047 | f= 1.303179
+10: 0010010111101100000100 | x= -0.555600 | f= 1.135709
+11: 0001110110101011101000 | x= -0.652300 | f= 0.922205
+12: 0101000000100010100110 | x= -0.060916 | f= 1.935373
+13: 0101000001010111010110 | x= -0.058501 | f= 1.938076
+14: 0100011101100101001101 | x= -0.163336 | f= 1.809986
+15: 1111100100100110110000 | x= 1.919743 | f= 0.234329
+16: 1110110101101110011011 | x= 1.782399 | f= 0.605452
+17: 1000011000001010010010 | x= 0.570784 | f= 2.244990
+18: 0111010011000001001110 | x= 0.368220 | f= 2.232634
+19: 0010111111101111100111 | x= -0.438250 | f= 1.369687
+20: 1010001110100001110111 | x= 0.917566 | f= 2.075639
+
+Probabilitati selectie:
+Cromozomul 1: 0.057500115
+Cromozomul 2: 0.040887040
+Cromozomul 3: 0.069889800
+Cromozomul 4: 0.050813417
+Cromozomul 5: 0.072676828
+Cromozomul 6: 0.049518892
+Cromozomul 7: 0.063947713
+Cromozomul 8: 0.018811722
+Cromozomul 9: 0.042149762
+Cromozomul 10: 0.036733135
+Cromozomul 11: 0.029827625
+Cromozomul 12: 0.062597328
+Cromozomul 13: 0.062684755
+Cromozomul 14: 0.058541820
+Cromozomul 15: 0.007579092
+Cromozomul 16: 0.019582637
+Cromozomul 17: 0.072611509
+Cromozomul 18: 0.072211882
+Cromozomul 19: 0.044300877
+Cromozomul 20: 0.067134051
+
+Intervale probabilitati selectie:
+1. 0.000000000 0.098387154
+2. 0.098387154 0.168276954
+3. 0.168276954 0.219090372
+4. 0.219090372 0.291767200
+5. 0.291767200 0.341286092
+6. 0.341286092 0.405233805
+7. 0.405233805 0.424045527
+8. 0.424045527 0.466195289
+9. 0.466195289 0.502928424
+10. 0.502928424 0.532756049
+11. 0.532756049 0.595353376
+12. 0.595353376 0.658038131
+13. 0.658038131 0.716579952
+14. 0.716579952 0.724159044
+15. 0.724159044 0.743741681
+16. 0.743741681 0.816353191
+17. 0.816353191 0.888565072
+18. 0.888565072 0.932865949
+19. 0.932865949 1.000000000
+
+Procesul de selectie:
+u = 0.324399 selectam cromozomul 5
+u = 0.409501 selectam cromozomul 7
+u = 0.166960 selectam cromozomul 2
+u = 0.674240 selectam cromozomul 13
+u = 0.734882 selectam cromozomul 15
+u = 0.860916 selectam cromozomul 17
+u = 0.299467 selectam cromozomul 5
+u = 0.452818 selectam cromozomul 8
+u = 0.796805 selectam cromozomul 16
+u = 0.005647 selectam cromozomul 1
+u = 0.277356 selectam cromozomul 4
+u = 0.918164 selectam cromozomul 18
+u = 0.116891 selectam cromozomul 2
+u = 0.670174 selectam cromozomul 13
+u = 0.583989 selectam cromozomul 11
+u = 0.663149 selectam cromozomul 13
+u = 0.492589 selectam cromozomul 9
+u = 0.422474 selectam cromozomul 7
+u = 0.971453 selectam cromozomul 19
+u = 0.067820 selectam cromozomul 1
+
+Cromozomii care participa la recombinare:
+u = 0.097275 | cromozomul 2 participa la recombinare
+u = 0.074349 | cromozomul 13 participa la recombinare
+u = 0.089782 | cromozomul 2 participa la recombinare
+u = 0.029719 | cromozomul 7 participa la recombinare
+u = 0.052581 | cromozomul 19 participa la recombinare
+
+cromozomul 2 cu cromozomul 13:
+1101010010111010010110 | 0101000001010111010110 -> intre punctul 14
+Rezultat 0101000001010110010110 | 1101010010111011010110
+
+cromozomul 2 cu cromozomul 7:
+1101010010111010010110 | 0101001101101100100010 -> intre punctul 5
+Rezultat 0101010010111010010110 | 1101001101101100100010
+
+cromozomul 2 cu cromozomul 19:
+1101010010111010010110 | 0010111111101111100111 -> intre punctul 18
+Rezultat 0010111111101111100110 | 1101010010111010010111
+
+cromozomul 13 cu cromozomul 2:
+0101000001010111010110 | 1101010010111010010110 -> intre punctul 4
+Rezultat 1101000001010111010110 | 0101010010111010010110
+
+cromozomul 13 cu cromozomul 7:
+0101000001010111010110 | 0101001101101100100010 -> intre punctul 18
+Rezultat 0101001101101100100110 | 0101000001010111010010
+
+cromozomul 13 cu cromozomul 19:
+0101000001010111010110 | 0010111111101111100111 -> intre punctul 17
+Rezultat 0010111111101111110110 | 0101000001010111000111
+
+cromozomul 2 cu cromozomul 7:
+1101010010111010010110 | 0101001101101100100010 -> intre punctul 19
+Rezultat 0101001101101100100110 | 1101010010111010010010
+
+cromozomul 2 cu cromozomul 19:
+1101010010111010010110 | 0010111111101111100111 -> intre punctul 16
+Rezultat 0010111111101111010110 | 1101010010111010100111
+
+cromozomul 7 cu cromozomul 19:
+0101001101101100100010 | 0010111111101111100111 -> intre punctul 21
+Rezultat 0010111111101111100110 | 0101001101101100100011
+
+Populatia dupa recombinare:
+1: 1101010010111011010110 | x= 1.492952 | f= 1.264047
+2: 0101000001010110010110 | x= -0.058547 | f= 1.938025
+3: 1101001101101100100010 | x= 1.477625 | f= 1.294249
+4: 0101010010111010010110 | x= -0.007095 | f= 1.992855
+5: 1101010010111010010111 | x= 1.492906 | f= 1.264137
+6: 0010111111101111100110 | x= -0.438251 | f= 1.369685
+7: 0101010010111010010110 | x= -0.007095 | f= 1.992855
+8: 1101000001010111010110 | x= 1.441499 | f= 1.363580
+9: 0101000001010111010010 | x= -0.058504 | f= 1.938073
+10: 0101001101101100100110 | x= -0.022372 | f= 1.977127
+11: 0101000001010111000111 | x= -0.058512 | f= 1.938064
+12: 0010111111101111110110 | x= -0.438239 | f= 1.369707
+13: 1101010010111010010010 | x= 1.492903 | f= 1.264144
+14: 0101001101101100100110 | x= -0.022372 | f= 1.977127
+15: 1101010010111010100111 | x= 1.492918 | f= 1.264114
+16: 0010111111101111010110 | x= -0.438262 | f= 1.369664
+17: 0101001101101100100011 | x= -0.022375 | f= 1.977125
+18: 0010111111101111100110 | x= -0.438251 | f= 1.369685
+
+Populatia dupa mutatie:
+1: 1101010010110011010110 | x= 1.492585 | f= 1.264774
+2: 0101000001010110010111 | x= -0.058547 | f= 1.938026
+3: 1101001101101100100000 | x= 1.477624 | f= 1.294252
+4: 0101010110111010010110 | x= 0.004624 | f= 2.004603
+5: 1101010010111000010111 | x= 1.492815 | f= 1.264319
+6: 0010111111101111100100 | x= -0.438252 | f= 1.369683
+7: 0101010110111010010110 | x= 0.004624 | f= 2.004603
+8: 1101100001010111010110 | x= 1.535249 | f= 1.178260
+9: 1101000001010111010010 | x= 1.441496 | f= 1.363585
+10: 0101001101101100100100 | x= -0.022374 | f= 1.977125
+11: 0001000001010111000111 | x= -0.808512 | f= 0.537795
+12: 0010111111101111010110 | x= -0.438262 | f= 1.369664
+13: 0101010010111010010010 | x= -0.007097 | f= 1.992852
+14: 0101001101101110100110 | x= -0.022281 | f= 1.977223
+15: 1101010010111011100111 | x= 1.492964 | f= 1.264023
+16: 0010111111101111010100 | x= -0.438264 | f= 1.369661
+17: 0101001101101100000011 | x= -0.022398 | f= 1.977101
+18: 0010111111101111110110 | x= -0.438239 | f= 1.369707
+
+
+Restul generatiilor:
+
+Generatia curenta: 2
+Max Fitness: 2.247009
+Mean Fitness: 1.375277
+
+Generatia curenta: 3
+Max Fitness: 2.247009
+Mean Fitness: 1.683825
+
+Generatia curenta: 4
+Max Fitness: 2.247009
+Mean Fitness: 1.856380
+
+Generatia curenta: 5
+Max Fitness: 2.249999
+Mean Fitness: 1.120337
+
+Generatia curenta: 6
+Max Fitness: 2.249999
+Mean Fitness: 0.877260
+
+Generatia curenta: 7
+Max Fitness: 2.249999
+Mean Fitness: 2.983450
+
+Generatia curenta: 8
+Max Fitness: 2.249999
+Mean Fitness: 0.277983
+
+Generatia curenta: 9
+Max Fitness: 2.249999
+Mean Fitness: 1.135438
+
+Generatia curenta: 10
+Max Fitness: 2.249999
+Mean Fitness: 1.229871
+
+Generatia curenta: 11
+Max Fitness: 2.249999
+Mean Fitness: 2.802147
+
+Generatia curenta: 12
+Max Fitness: 2.249999
+Mean Fitness: 1.661315
+
+Generatia curenta: 13
+Max Fitness: 2.250000
+Mean Fitness: 1.008282
+
+Generatia curenta: 14
+Max Fitness: 2.250000
+Mean Fitness: 2.383429
+
+Generatia curenta: 15
+Max Fitness: 2.250000
+Mean Fitness: 1.883438
+
+Generatia curenta: 16
+Max Fitness: 2.250000
+Mean Fitness: 10.026022
+
+Generatia curenta: 17
+Max Fitness: 2.250000
+Mean Fitness: 1.959207
+
+Generatia curenta: 18
+Max Fitness: 2.250000
+Mean Fitness: 1.441396
+
+Generatia curenta: 19
+Max Fitness: 2.250000
+Mean Fitness: 3.077525
+
+Generatia curenta: 20
+Max Fitness: 2.250000
+Mean Fitness: 2.084776
+
+Generatia curenta: 21
+Max Fitness: 2.250000
+Mean Fitness: 4.388104
+
+Generatia curenta: 22
+Max Fitness: 2.250000
+Mean Fitness: 3.168786
+
+Generatia curenta: 23
+Max Fitness: 2.250000
+Mean Fitness: 0.749054
+
+Generatia curenta: 24
+Max Fitness: 2.250000
+Mean Fitness: 1.269562
+
+Generatia curenta: 25
+Max Fitness: 2.250000
+Mean Fitness: 2.125894
+
+Generatia curenta: 26
+Max Fitness: 2.250000
+Mean Fitness: 1.221950
+
+Generatia curenta: 27
+Max Fitness: 2.250000
+Mean Fitness: 1.889670
+
+Generatia curenta: 28
+Max Fitness: 2.250000
+Mean Fitness: 1.336228
+
+Generatia curenta: 29
+Max Fitness: 2.250000
+Mean Fitness: 2.785122
+
+Generatia curenta: 30
+Max Fitness: 2.250000
+Mean Fitness: 4.001258
+
+Generatia curenta: 31
+Max Fitness: 2.250000
+Mean Fitness: 3.988480
+
+Generatia curenta: 32
+Max Fitness: 2.250000
+Mean Fitness: 1.846571
+
+Generatia curenta: 33
+Max Fitness: 2.250000
+Mean Fitness: 1.145024
+
+Generatia curenta: 34
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 35
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 36
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 37
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 38
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 39
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 40
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 41
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 42
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 43
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 44
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 45
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 46
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 47
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 48
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 49
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
+
+Generatia curenta: 50
+Max Fitness: 2.250000
+Mean Fitness: 0.112500
